@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Bree Serif', serif;
+    color: #46295a;
+}
+
+body {
+    background: white;
+    overflow-x: hidden;
+}
+
+.App {
+    color: black;
+}
+
+.navbar {
+    background-color: #e0b0ff;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    text-decoration: none;
+}
+
+#logo-img {
+    height: 55px;
+    margin-left: 20px;
+}
+
+#h1-logo {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+input#country-select-demo {
+    padding: 0;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiAutocomplete-inputRoot.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+    margin-top: 0;
+    padding: 4px;
+}
+
+.css-1wuilmg-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 0;
+}
+
+.servicos {
+    width: 120px;
+    margin-right: 50px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile {
+    margin-left: 5px;
+}
+
+.global {
+    display: flex;
+    flex-direction: column;
+}
+
+.primaria {
+    width: 100%;
+    margin-top: 55px;
+    position: fixed;
+}
+
+.ul-primaria {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e0b0ff;
+}
+
+.li-primaria {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.li-primaria:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+.line {
+    color: white !important;
+    font-family: 'Poltawski Nowy', serif;
+    padding-top: 5px;
+}
+
+.secundaria {
+    width: 100%;
+}
+
+.ul-secundaria {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #46295a;
+}
+
+.li-secundaria {
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    width: 33.3%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.drop-config {
+    position: absolute;
+    font-size: medium;
+    background-color: white;
+    width: 300px;
+    top: 63px;
+    right: 83px;
+    border-radius: 10px;
+    border: 1px solid #46295a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drop-config::before, .drop-dark::before, .drop-user::before {
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: white;
+    border-left: 1px solid #46295a;
+    border-top: 1px solid #46295a;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    background-color: #e0b0ff;
+    color: #46295a;
+    font-family: 'Bree Serif', serif;
+}
+
+.drop-dark {
+    position: absolute;
+    font-size: medium;
+    background-color: white;
+    width: 250px;
+    top: 63px;
+    right: 123px;
+    border-radius: 10px;
+    border: 1px solid #46295a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#span-dark {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-right: 60px;
+}
+
+.drop-user {
+    position: absolute;
+    font-size: medium;
+    background-color: white;
+    width: 300px;
+    top: 63px;
+    right: 43.5px;
+    border-radius: 10px;
+    border: 1px solid #46295a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#user-img {
+    width: 70px;
+    border-radius: 50%;
+    border: 3.5px solid #46295a;
+}
+
+#span-user {
+    display: flex;
+    flex-direction: row;
+}
