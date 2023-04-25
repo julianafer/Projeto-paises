@@ -58,6 +58,10 @@ input#country-select-demo {
     padding: 0;
 }
 
+label#country-select-demo-label {
+    top: -11px;
+}
+
 .servicos {
     width: 120px;
     margin-right: 50px;
@@ -129,6 +133,10 @@ li {
     width: 33.3%;
     text-align: center;
     cursor: pointer;
+}
+
+.li-secundaria:hover {
+    text-decoration: underline;
 }
 
 .drop-config {
@@ -221,4 +229,66 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-contained
 #span-user {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    cursor: pointer;
+}
+
+#span-user:hover {
+    text-decoration: underline;
+}
+
+.img-span {
+    margin-top: 20px;
+    display: flex;
+    width: 290px;
+    justify-content: space-evenly;
+}
+
+#camera {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+#btn-user {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input#standard-password-input, input#standard-basic {
+    width: 230px;
+}
+
+.div-content {
+    width: 80%;
+    height: 300px;
+    border: .15rem solid #46295a;
+    border-radius: 15px;
+    margin-top: 160px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passagens {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#outlined-basic1, #outlined-basic2 {
+    width: 400px;
+}
+
+#aviao {
+    font-size: 50px;
+    margin: 0 20px 0 20px;
+}
+
+.drop-form {
+    width: 945px;
+    margin-top: 50px;
 }

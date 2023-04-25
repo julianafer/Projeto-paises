@@ -5,9 +5,9 @@ import { AiFillCamera } from "react-icons/ai";
 function DropUser() {
     return (
         <div className="drop-user">
-            <div>
+            <div className="img-span">
                 <img src={user} id="user-img" />
-                <span id="span-user">Mudar foto de perfil <AiFillCamera /></span>
+                <span id="span-user">Mudar foto de perfil <AiFillCamera id="camera" /></span>
             </div>
             <TextField id="standard-basic" label="Mudar nome de usuário" variant="standard" />
             <TextField
@@ -17,7 +17,7 @@ function DropUser() {
                 autoComplete="current-password"
                 variant="standard"
             />
-            <Button variant="contained">Salvar alterações</Button>
+            <Button id="btn-user" variant="contained">Salvar alterações</Button>
         </div>
     )
 }
