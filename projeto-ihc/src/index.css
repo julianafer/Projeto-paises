@@ -261,7 +261,7 @@ input#standard-password-input, input#standard-basic {
 
 .div-content {
     width: 80%;
-    height: 300px;
+    height: 270px;
     border: .15rem solid #46295a;
     border-radius: 15px;
     margin-top: 160px;
@@ -289,6 +289,62 @@ input#standard-password-input, input#standard-basic {
 }
 
 .drop-form {
-    width: 945px;
-    margin-top: 50px;
+    width: 650px;
+}
+
+.MuiFormControl-root.drop-form.css-1nrlq1o-MuiFormControl-root {
+    margin-top: 25px;
+}
+
+.MuiFormControl-root.radio.css-1nrlq1o-MuiFormControl-root {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+}
+
+#demo-row-radio-buttons-group-label {
+    margin-right: 20px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+}
+
+#drop-radio {
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+
+#comprar {
+    margin-top: 25px;
+}
+
+#tip {
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #46295a;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 86%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    font-size: medium;
+    background-color: white;
+    width: 200px;
+    top: 225px;
+    right: 8.9%;
+    border-radius: 10px;
+    border: 1px solid #46295a;
+    padding: 15px;
+    text-align: left;
 }
