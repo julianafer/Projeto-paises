@@ -17,9 +17,15 @@ function DropUser() {
                 autoComplete="current-password"
                 variant="standard"
             />
-            <Button id="btn-user" variant="contained">Salvar alterações</Button>
+            <Button onClick={() => showAlert()} id="btn-user" variant="contained">Salvar alterações</Button>
         </div>
     )
+}
+
+function showAlert() {
+    const ale = document.getElementById("alert")
+    ale.style.opacity = '100%'
+    ale.style.zIndex = '3'
 }
 
 export default DropUser

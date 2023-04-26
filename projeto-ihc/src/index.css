@@ -347,4 +347,80 @@ input#standard-password-input, input#standard-basic {
     border: 1px solid #46295a;
     padding: 15px;
     text-align: left;
+    z-index: 1;
+}
+
+#alert {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    z-index: -2;
+}
+
+#inside-alert {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border: 20px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #46295a;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-bottom: 15px;
+    color: #46295a;
+    font-family: 'Bree Serif', serif;
+    border: 1px solid #46295a;
+    margin-left: 10px;
+}
+
+#confirmar {
+    box-shadow: none;
+    border: 1px solid #e0b0ff;
+}
+
+#buttons {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#confirma {
+    background-color: #e0b0ff;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    opacity: 0;
+    z-index: -2;
+}
+
+#x, #aviso {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#x {
+    cursor: pointer;
 }

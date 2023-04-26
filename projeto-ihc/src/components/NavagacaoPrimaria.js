@@ -1,5 +1,6 @@
 import { useState } from "react"
 import NavegacaoSecundaria from "./NavegacaoSecundaria";
+import { IoIosArrowDown } from "react-icons/io";
 
 function NavegacaoPrimaria() {
     const [open, setOpen] = useState(false)
@@ -10,23 +11,23 @@ function NavegacaoPrimaria() {
                 <li className="li-primaria" id="africa" onClick={() => {
                     setOpen((prev) => !prev)
                     secundaria("africa", open)
-                    }}>África</li><span className="line">|</span>
+                    }}>África <IoIosArrowDown className="arrow" /></li><span className="line">|</span>
                 <li className="li-primaria" id="america" onClick={() => {
                     setOpen((prev) => !prev)
                     secundaria("america", open)
-                    }}>América</li><span className="line">|</span>
+                    }}>América <IoIosArrowDown className="arrow" /></li><span className="line">|</span>
                 <li className="li-primaria" id="asia" onClick={() => {
                     setOpen((prev) => !prev)
                     secundaria("asia", open)
-                    }}>Ásia</li><span className="line">|</span>
+                    }}>Ásia <IoIosArrowDown className="arrow" /></li><span className="line">|</span>
                 <li className="li-primaria" id="europa" onClick={() => {
                     setOpen((prev) => !prev)
                     secundaria("europa", open)
-                    }}>Europa</li><span className="line">|</span>
+                    }}>Europa <IoIosArrowDown className="arrow" /></li><span className="line">|</span>
                 <li className="li-primaria" id="oceania" onClick={() => {
                     setOpen((prev) => !prev)
                     secundaria("oceania", open)
-                    }}>Oceania</li>
+                    }}>Oceania <IoIosArrowDown className="arrow" /></li>
             </ul>
             {
                 open && <NavegacaoSecundaria />

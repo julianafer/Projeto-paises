@@ -6,9 +6,15 @@ function DropDark() {
             <span id="span-dark">
                 <Switch color="secondary" /> Modo noturno
             </span>
-            <Button variant="contained">Salvar alterações</Button>
+            <Button onClick={() => showAlert()} variant="contained">Salvar alterações</Button>
         </div>
     )
+}
+
+function showAlert() {
+    const ale = document.getElementById("alert")
+    ale.style.opacity = '100%'
+    ale.style.zIndex = '3'
 }
 
 export default DropDark
