@@ -443,5 +443,6 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPr
 }
 
 #cp {
-    background-color: #e0b0ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
