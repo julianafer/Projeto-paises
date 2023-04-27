@@ -424,3 +424,24 @@ button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPr
 #x {
     cursor: pointer;
 }
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 10% 0 10%;
+    border-top: 1px solid #46295a;
+    padding-top: 20px;
+}
+
+.icon-footer {
+    margin-right: 5px;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+    margin-right: 10px;
+}
+
+#cp {
+    background-color: #e0b0ff;
+}
